@@ -1,3 +1,9 @@
+#ifndef Alimento_hpp
+#pragma once
+#include <string>
+using namespace std;
+#include <stdio.h>
+
 class video
 {
 public:
