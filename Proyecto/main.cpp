@@ -1,8 +1,9 @@
 
 #include <iostream>
 using namespace   std;
-#include ""
-#include ""
+#include "video.hpp"
+#include "pelicula.hpp"
+#include "serie.hpp"
 
 
 int main(int argc, const char * argv[]) {
