@@ -6,14 +6,29 @@ using namespace std;
 
 
 class video{
-
-public:
+  
+private:
 string iD;
 string titulo;
 int duracion;
 string genero;
 double calificacion;
-string str();
+
+ 
+public:
+setiD(string):void
+setTitulo(string):void
+setDuracion(int):void
+setGenero(string):void
+setCalificacion(double):void
+
+getiD()sting;
+getTitulo()string;
+getDuracion()int;
+getGenero()string;
+getCalificacion()double;
+  
+str():string
 
 
 };
