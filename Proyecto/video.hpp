@@ -1,11 +1,12 @@
-#ifndef Alimento_hpp
+#ifndef video_hpp
 #pragma once
 #include <string>
 using namespace std;
 #include <stdio.h>
 
-class video
-{
+
+class video{
+
 public:
 string iD;
 string titulo;
@@ -16,3 +17,5 @@ string str();
 
 
 };
+
+#endif /* video_hpp */
