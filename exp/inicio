@@ -1,1 +1,28 @@
 
+#include iostream
+
+class Superheroe
+{
+private:
+string alias, nombre
+
+public:
+string darNombreAlias();
+void setAlias(string_alias);
+void setNombre/string_nombre);
+string str();
+
+string Superheroe :: darNombreAlias( ){
+return largo * ancho;
+}
+void Rectangulo :: setLargo(double _largo){
+largo = _largo;
+}
+void Rectangulo :: setAncho(double _ancho){
+ancho = _ancho;
+}
+string Rectangulo :: str( ){
+ return "Largo="+ to_string(largo) + "\nAncho =" + to_string(ancho);
+}
+
+};
