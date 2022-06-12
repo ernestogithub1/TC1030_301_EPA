@@ -1,4 +1,5 @@
 #ifndef video_hpp
+#define video_hpp
 #pragma once
 #include <string>
 using namespace std;
@@ -12,23 +13,24 @@ string iD;
 string titulo;
 int duracion;
 string genero;
-double calificacion;
+double calificacionPromedio;
 
  
 public:
-setiD(string):void
-setTitulo(string):void
-setDuracion(int):void
-setGenero(string):void
-setCalificacion(double):void
-
-getiD()sting;
-getTitulo()string;
-getDuracion()int;
-getGenero()string;
-getCalificacion()double;
   
-str():string
+void setiD(string _id);
+void setTitulo(string _titulo);
+void setDuracion(int _duracion);
+void setGenero(string _genero);
+void setCalificacion(double _calificacion);
+
+sting getiD();
+string getTitulo();
+int getDuracion();
+string getGenero();
+double getCalificacion();
+  
+string str():
 
 
 };
