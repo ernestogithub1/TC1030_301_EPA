@@ -8,21 +8,21 @@ string alias, nombre
 
 public:
 string darNombreAlias();
-void setAlias(string_alias);
-void setNombre/string_nombre);
+void setAlias(string _alias);
+void setNombre(string _nombre);
 string str();
 
 string Superheroe :: darNombreAlias( ){
-return largo * ancho;
+return alias;
 }
-void Rectangulo :: setLargo(double _largo){
-largo = _largo;
+void Superheroe :: setAlias(string _alias){
+alias = _alias;
 }
-void Rectangulo :: setAncho(double _ancho){
-ancho = _ancho;
+void Superheroe :: setNombre(string _nombre){
+nombre = _nombre;
 }
-string Rectangulo :: str( ){
- return "Largo="+ to_string(largo) + "\nAncho =" + to_string(ancho);
+string Superheroe :: str( ){
+ return "alias="+ to_string(alias);
 }
 
 };
