@@ -9,7 +9,7 @@ genero=vacio;
 calificacionPromedio=0;
 }
 
-video::video (string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio){
+video::video (string _id, string _titulo, int _duracion, string _genero, double _calificacionPromedio){
 id= _id
 titulo= _titulo
 duracion= _duracion
