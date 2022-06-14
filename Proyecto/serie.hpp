@@ -7,21 +7,20 @@
 class serie: public video{
   
 private:
-  Episodio episodios[5];
+  episodio episodios[5];
   int cantidad;
   
 public:
   serie();
-  serie(string, string, int, string, double, int, );
+  serie(string _id, string _titulo, int _duracion, string _genero, double _calificacionPromedio, int, );
   
-  void setEpisodio(int_index, Episodio_episodio);
-  void setCantidad(int_cantidad);
+  void setEpisodio(int _index, episodio _episodio);
+  void setCantidad(int _cantidad);
 
-  int getEpisodio(int_index);
+  episodio getEpisodio(int _index);
   int getCantidad();
   
   double calcularPromedio();
-  
   string str();
 
 
