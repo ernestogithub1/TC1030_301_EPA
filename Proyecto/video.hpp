@@ -18,7 +18,7 @@ double calificacionPromedio;
 public:
 
 video();
-video(); 
+video(string, string, int, string, double); 
 
 void setiD(string _id);
 void setTitulo(string _titulo);
