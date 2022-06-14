@@ -1,25 +1,30 @@
-#ifndef serie_hpp
-#define serie_hpp
+#ifndef episodio_hpp
+#define episodio_hpp
 #include <stdio.h>
-#include "video.hpp"
 
-class episodio: public video{
+class episodio
+{
 private:
-  episodios[5]Episodio;
-  cantidad int
+  string titulo;
+  int temporada;
+  double calificacion;
+  
 public:
-  setEpisodio(int,Episodio):void
-  setCantidad(int):void
+  episodio();
+  episodio(string, int, double);
+  
+  void setTitulo(string);
+  void setTemporada(int);
+  void setCalificacion(double);
 
-  getEpisodio(int):Episodio;
-  getCantidad()int;
+  string getTitulo();
+  int getTemporada();
+  double getCalificacion();
   
-calcularPromedio:double
+  calcularPromedio
   
-str():string
+  str():string
 };
 
 
 #endif /* Pizza_hpp */
-© 2022 GitHub, Inc.
-Terms
