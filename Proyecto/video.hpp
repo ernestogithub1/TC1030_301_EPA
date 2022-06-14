@@ -1,6 +1,5 @@
 #ifndef video_hpp
 #define video_hpp
-#pragma once
 #include <string>
 using namespace std;
 #include <stdio.h>
@@ -17,7 +16,10 @@ double calificacionPromedio;
 
  
 public:
-  
+
+video();
+video(); 
+
 void setiD(string _id);
 void setTitulo(string _titulo);
 void setDuracion(int _duracion);
@@ -36,3 +38,5 @@ string str():
 };
 
 #endif /* video_hpp */
+
+
