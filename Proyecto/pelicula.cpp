@@ -1,42 +1,27 @@
-#include <iostream>
-#include "video.hpp"
+#include "pelicula.hpp"
 
-using namespace std;
-
-Video::Video(string _ID, string _titulo, Duracion _duracion, int _genero, int _calificacion){
-    ID           = _ID;
-    titulo       = _titulo;
-    duracion     = _duracion;
-    genero       = _genero;
-    calificacion = _calificacion;
+pelicula::pelicula( ) :video()
+{
+oscares = 0;
 }
 
-void Video::impGenero(){
-    string genre;
 
-    switch(genero){
-        case 1:
-            genre = "accion";
-            break;
-        case 2:
-            genre = "comedia";
-            break;
-        case 3:
-            genre = "drama";
-            break;
-    }
-
-    cout << genre;
+pelicula::pelicula ((string _id, string _titulo, int _duracion, string _genero, double _calificacion, int _oscares) : video(id, titulo, duracion, genero, calificacion)
+{
+oscares = _oscares
 }
 
-void Video::mostrar(){
-    cout << "ID: " << ID << endl;
-    cout << "Nombre: " << titulo << endl;
-    cout << "Duracion: "; duracion.impHora();
-    cout << "Genero: "; impGenero(); cout << endl;
-    cout << "Calificacion: " << calificacion << endl;
+
+void video::setId(string _id){
+ oscares = _oscares;
 }
 
-void Video::calificar(double cal){
-    calificacion = (calificacion+cal)/2;
+
+string video::getId( ){
+return oscares;
+}
+
+
+string video:: str( ){
+ return oscares;
 }
