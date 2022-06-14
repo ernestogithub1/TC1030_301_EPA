@@ -6,7 +6,7 @@ oscares = 0;
 }
 
 
-pelicula::pelicula ((string _id, string _titulo, int _duracion, string _genero, double _calificacion, int _oscares) : video(id, titulo, duracion, genero, calificacion)
+pelicula::pelicula (string _id, string _titulo, int _duracion, string _genero, double _calificacion, int _oscares) : video(id, titulo, duracion, genero, calificacion)
 {
 oscares = _oscares
 }
