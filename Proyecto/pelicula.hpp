@@ -8,11 +8,14 @@ using namespace std;
 class pelicula : public video{
   
 private:
-    int oscares;
+  int oscares;
 public:
   pelicula();
   pelicula(string, string, int, string, double, int);
 
+  void setOscares(int _oscares);
+  int getOscares();
+  
   string str( );
 };
 
