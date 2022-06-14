@@ -21,8 +21,6 @@ public:
   int getTemporada();
   double getCalificacion();
   
-  calcularPromedio
-  
   str():string
 };
 
