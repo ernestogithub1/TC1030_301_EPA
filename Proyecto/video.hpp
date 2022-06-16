@@ -1,42 +1,55 @@
-#ifndef video_hpp
-#define video_hpp
-#include <string>
-using namespace std;
+//Ernesto Poisot Avila
+//A01734765
+// Video.hpp
+
+
+#ifndef Video_hpp
+#define Video_hpp
+
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 
-class video{
+class Video{
   
-private:
+protected:
+
 string iD;
 string titulo;
 int duracion;
 string genero;
-double calificacion;
+double calificacionPromedio;
 
  
+  
+  
 public:
 
-video();
-video(string, string, int, string, double); 
-
-void setiD(string _id);
-void setTitulo(string _titulo);
-void setDuracion(int _duracion);
-void setGenero(string _genero);
-void setCalificacion(double _calificacion);
-
-sting getiD();
-string getTitulo();
-int getDuracion();
-string getGenero();
-double getCalificacion();
+  //constructores
+  Video();
+  Video(string _iD, string _titulo, int _duracion, string _genero, double _calificacionPromedio);
   
-string str():
+  //sets
+  void setiD(string _id);
+  void setTitulo(string _titulo);
+  void setDuracion(int _duracion);
+  void setGenero(string _genero);
+  void setCalificacion(double _calificacionPromedio);
+  
+  //gets
+  sting getiD();
+  string getTitulo();
+  int getDuracion();
+  string getGenero();
+  double getCalificacion();
+  
+  //resto
+  virtual string str():
 
 
 };
 
-#endif /* video_hpp */
+#endif /* Video_hpp */
 
 
