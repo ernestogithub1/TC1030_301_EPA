@@ -1,34 +1,47 @@
+//Ernesto Poisot Avila
+//A01734765
+//peliculas.hpp
+
 #ifndef peliculas_hpp
 #define peliculas_hpp
-#include <stdio.h>
-#include "video.hpp"
-#include "pelicula.hpp"
 
-class peliculas: public video{
+#include <stdio.h>
+#include "pelicula.hpp"
+#include <sstream>
+#include <fstream>
+#include <iostream>
+const int MAX_PEL =50;
+
+class peliculas{
   
 private:
-  pelicula arrPtrPeliculas[MAX_PEL];
+  pelicula * arrPtrPeliculas[MAX_PEL];
   int cantidad;
   
 public:
+  //constructor
   peliculas();
   
   
-  
-  void setPtrPeliculas(string);
+  //set
+  void setPtrPeliculas(Pelicula *_ptrPelicula);
   void setCantidadPeliculas(int _cantidad);
 
-  pelicula getPtrPeliculas(string _index);
+  
+  //get
+  pelicula * getPtrPeliculas(string _id);
   int getCantidadPeliculas();
   
-  double calcularPromedio();
-  string str();
+  //resto
+  int leerArchivo();
+  void reporteTodasLasPeliculas();
+  void reporteConCalificacion(float _calificacionPromedio);
+  void reporteGenero(string _genero);
 
 
 };
 
 
 #endif /* peliculas_hpp */
-© 2022 GitHub, Inc.
-Terms
-Priv
+
+
