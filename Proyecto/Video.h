@@ -50,6 +50,6 @@ public:
 
 };
 
-#endif /* Video_hpp */
+#endif /* Video_h */
 
 
