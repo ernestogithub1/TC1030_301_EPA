@@ -2,8 +2,8 @@
 // A01734765
 // Series.cpp
 
-#include "Series.hpp"
-#include "Serie.hpp"
+#include "Series.h"
+#include "Serie.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
