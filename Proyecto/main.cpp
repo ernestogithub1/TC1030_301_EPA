@@ -20,8 +20,8 @@
 //
 
 #include <iostream>
-#include "Peliculas.hpp"
-#include "Series.hpp"
+#include "Peliculas.h"
+#include "Series.h"
 
 int menuPeliculas(){
     int iOpcion;
