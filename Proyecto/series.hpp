@@ -1,12 +1,12 @@
 // Ernesto Poisot Avila
 // A01734765
-// Series.hpp
+// Series.h
 
-#ifndef Series_hpp
-#define Series_hpp
+#ifndef Series_h
+#define Series_h
 
 #include <stdio.h>
-#include "Serie.hpp"
+#include "Serie.h"
 #include <sstream>
 #include <fstream>
 
@@ -41,4 +41,4 @@ public:
   void calcularCalificacionSeries();
 };
 
-#endif /* Series_hpp */
+#endif /* Series_h */
