@@ -1,6 +1,6 @@
 // Ernesto Poisot Avila
 // A01734765
-// peliculas.cpp
+// Peliculas.cpp
 
 #include "peliculas.hpp"
 #include "pelicula.hpp"
@@ -8,7 +8,7 @@
 #include <fstream>
 
 //constructor
-peliculas::peliculas(){}
+Peliculas::Peliculas(){}
 
 
 //resto
