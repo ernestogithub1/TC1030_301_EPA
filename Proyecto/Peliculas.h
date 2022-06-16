@@ -1,26 +1,26 @@
 //Ernesto Poisot Avila
 //A01734765
-//peliculas.hpp
+//Peliculas.h
 
-#ifndef peliculas_hpp
-#define peliculas_hpp
+#ifndef Peliculas_h
+#define Peliculas_h
 
 #include <stdio.h>
-#include "pelicula.hpp"
+#include "Pelicula.h"
 #include <sstream>
 #include <fstream>
 #include <iostream>
 const int MAX_PEL =50;
 
-class peliculas{
+class Peliculas{
   
 private:
-  pelicula * arrPtrPeliculas[MAX_PEL];
+  Pelicula * arrPtrPeliculas[MAX_PEL];
   int cantidad;
   
 public:
   //constructor
-  peliculas();
+  Peliculas();
   
   
   //set
@@ -29,7 +29,7 @@ public:
 
   
   //get
-  pelicula * getPtrPeliculas(string _id);
+  Pelicula * getPtrPeliculas(string _id);
   int getCantidadPeliculas();
   
   //resto
@@ -42,6 +42,6 @@ public:
 };
 
 
-#endif /* peliculas_hpp */
+#endif /* Peliculas_h */
 
 
