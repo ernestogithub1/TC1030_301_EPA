@@ -1,10 +1,10 @@
 //Ernesto Poisot Avila
 //A01734765
-// Video.hpp
+// Video.h
 
 
-#ifndef Video_hpp
-#define Video_hpp
+#ifndef Video_h
+#define Video_h
 
 #include <stdio.h>
 #include <iostream>
