@@ -12,7 +12,7 @@ string iD;
 string titulo;
 int duracion;
 string genero;
-double calificacionPromedio;
+double calificacion;
 
  
 public:
