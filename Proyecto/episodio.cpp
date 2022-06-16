@@ -1,14 +1,19 @@
-#include "episodio.hpp"
+//Ernesto Poisot Avila
+//A01734765
+// Episodio.cpp
 
-episodio::episodio( )
+#include "Episodio.h"
+
+
+//constructores
+
+Episodio::Episodio( )
 {
 titulo = vacio;
 temporada = 0;
 calificacion = 0;
 }
-
-
-episodio::episodio(string_ titulo, int _temporada, double _calificacion )
+Episodio::Episodio(string_ titulo, int _temporada, int _calificacion )
 {
 titulo = _titulo;
 temporada = _temporada;
@@ -16,30 +21,33 @@ calificacion = _calificacion;
 }
 
 
-void episodio::setTitulo(string _titulo){
+//set
+void Episodio::setTitulo(string _titulo){
  titulo = _titulo;
 }
-void episodio::setTemporada(int _temporada){
+void Episodio::setTemporada(int _temporada){
  temporada = _temporada;
 }
-void episodio::setCalificacion(double _calificacion){
+void Episodio::setCalificacion(int _calificacion){
  calificacion = _calificacion;
 }
 
 
-string episodio::getTitulo( ){
+//get
+string Episodio::getTitulo( ){
 return titulo;
 }
-int episodio::getTemporada( ){
+int Episodio::getTemporada( ){
 return temporada;
 }
-double episodio::getCalificacion( ){
+int Episodio::getCalificacion( ){
 return calificacion;
 }
 
 
-string episodio:: str( ){
- return titulo + ', ' + to_string(temporada) + ', ' + to_string(calificacion);
+//resto
+string Episodio::str(){
+  return titulo + ',' + to_string(temporada) + ',' + to_string(calificacion);
 }
 
 
